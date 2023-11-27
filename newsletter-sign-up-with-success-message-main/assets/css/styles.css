@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.main-text{
+    padding: 20px;
+    margin: 10px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .9rem;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+form{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    font-size: .9rem;
+    
+}
+
+.success-message{
+    padding: 20px;
+    margin: 10px auto;
+    line-height: 1.5;
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .9rem;
+    display: none;
+
+}
+
+.success-icon{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding-left:25px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+ul li{
+    margin-bottom: 5px;
+    list-style-type: none;
+    list-style-image: url('../images/icon-list.svg');
+    line-height:.9rem;
+    vertical-align: middle;
+    padding: 10px 5px;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin:20px 0
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid hsl(234, 11%, 52%);
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: hsl(234, 11%, 52%);
+    outline: none;
+}
+
+button{
+    background-color: hsl(235, 18%, 26%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:20px;
+}
